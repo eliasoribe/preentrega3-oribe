@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+
+    .hero div {
+        width: 45%;
+        max-width: none;
+        margin: 20px;
+    }
+
+    .mainhero {
+        flex-direction: row; 
+    }
+
+    .presenta {
+        flex-direction: row; 
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .menu-link {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        flex-direction: row; 
+    }
+
+    .ubicados, .map-container, .whatsapp {
+        margin-top: 0;
+    }
+        .encargos {
+            flex-direction: row; 
+            justify-content: space-around;
+        }
+    
+        .encargos div {
+            margin: 0 20px; }
+    
+}
+@media only screen and (max-width:767px) {
+    header{
+        display: block;
+        text-align: center;
+    }
+
+    header nav,header nav ul{
+        display: block;
+    }
+
+    header nav{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

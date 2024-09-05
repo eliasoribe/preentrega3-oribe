@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+h1 {
+    font-size: 2.5rem;
+}
+.poggi {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-item {
+    margin-left: 20px;
+}
+.menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}}

@@ -1,0 +1,16 @@
+@import "./base/funcionalidades";
+@import "./base/generales";
+@import "./base/media";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer"; 
+
+body {
+    background-image: url(../img/fondomates.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
